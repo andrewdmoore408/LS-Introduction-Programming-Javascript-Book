@@ -1,0 +1,44 @@
+1. 'Andrew' + ' ' + 'Moore'
+
+2.> 4936 % 10
+6
+> (4936 - 6) / 10
+493
+> 493 % 10
+3
+> (493 - 3) / 10
+49
+> 49 % 10
+9
+> ( 49 - 9) / 10
+4
+> 4 % 10
+4
+
+3. 'true' is a string; false is a boolean; 1.5 is a number; 2 is a number; undefined is undefined, and { foo: 'bar' } is an object.
+
+4. console.log('5' + 10); logs '510' because + always results in string concatenation when either of its operands are strings.
+
+5. console.log(Number('5') + 10);
+
+6. console.log(`The value of 5 + 10 is ${Number('5') + 10}.)`;
+
+7. I believe this will return undefined rather than raising an error.
+
+8. let petNames = ['Ludwig', 'Porsche', 'Natasha', 'Rebel', 'Disney', 'Oreo', 'Indy'];
+
+9. let pets = {
+    Ludwig: 'cat',
+    Porsche: 'cat',
+    Natasha: 'cat',
+    Rebel: 'cat',
+    Disney: 'cat',
+    Oreo: 'cat',
+    Indy: 'cat',
+  };
+
+10. 'foo' === 'Foo' evaluates to false, since strings are case-sensitive.
+
+11. This evaluates to 3. parseInt parses the 3 and then stops once it hits the decimal point and returns what it has.
+
+12. This will return true since the strings are being compared on a character-by-character basis and '1' is less than '9'.
