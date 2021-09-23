@@ -1,0 +1,9 @@
+substring: Prototype method for String
+
+create: Static method for Object
+
+fromCharCode: Static method for String
+
+slice: Prototype method for String and Array
+
+toString: Prototype method for String, Object, Array, and Number

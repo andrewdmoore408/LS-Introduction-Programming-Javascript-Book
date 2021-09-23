@@ -1,0 +1,5 @@
+1. "bar" is output once.
+
+2. "bar" is output two times.
+
+3. "bar" is output once.
