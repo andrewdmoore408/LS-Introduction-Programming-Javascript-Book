@@ -1,0 +1,9 @@
+3. This code will raise an error. Since foo is block-scoped and the block ends before the invocation of console.log, the variable is no longer in scope. (ReferenceError)
+
+4. This code will run fine at first and output 'Good Morning/Afternoon/Evening, Victor' but an error will be raised when execution gets to line 6. Since NAME was declared using const, it cannot be reassigned. (TypeError)
+
+5. This code will log 'bar' to the console. There is variable shadowing inside the block, where foo will reference 'qux', but outside of the block it will again reference 'bar'.
+
+6. Yes, this code will raise a TypeError on line 3. The first FOO is still in scope, and so FOO cannot be reassigned because it was declared using const.
+
+(CORRECTION: The two variables are separate entities (presumably since the scope is different and the keyword const is being used again?)
