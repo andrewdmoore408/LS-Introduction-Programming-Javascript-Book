@@ -1,0 +1,1 @@
+This code also doesn't log anything to the console. A string is being returned by the scream() function, but it's not being output by anything.
