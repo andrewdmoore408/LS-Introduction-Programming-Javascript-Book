@@ -1,0 +1,1 @@
+This code will log 1 to the console. Executing foo() doesn't affect the output, because it's a separate scope and the bar variable declared inside its body is a separate variable than the bar declared on line 1.
