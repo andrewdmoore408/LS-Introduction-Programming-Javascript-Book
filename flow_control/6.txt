@@ -1,0 +1,1 @@
+This code will output 'Not Empty' to the console, since empty arrays are truthy.
