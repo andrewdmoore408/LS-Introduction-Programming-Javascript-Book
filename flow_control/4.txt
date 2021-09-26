@@ -1,0 +1,1 @@
+This code logs "Product2" and then "Product3" and "Product not found!" to the console. Since there are no break statements, the code execution falls through after finding a match.
