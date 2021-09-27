@@ -1,0 +1,18 @@
+let rlSync = require("readline-sync");
+
+const currentAge = Number(rlSync.question("How old are you? "));
+
+console.log(`You are ${currentAge} years old.`);
+
+for (let numYears = 10; numYears < 50; numYears += 10) {
+
+  console.log(`In ${numYears} years, you will be ${currentAge + numYears} years old.`);
+}
+
+// console.log(`In 10 years, you will be ${currentAge + 10} years old.`);
+
+// console.log(`In 20 years, you will be ${currentAge + 20} years old.`);
+
+// console.log(`In 30 years, you will be ${currentAge + 30} years old.`);
+
+// console.log(`In 40 years, you will be ${currentAge + 40} years old.`);
