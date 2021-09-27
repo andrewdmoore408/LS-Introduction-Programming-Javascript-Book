@@ -1,0 +1,1 @@
+This code produces an infinite loop because line 3 uses local variable reassignment inside the conditional clause. Since the local variable counter is being reassigned to point to 1, which is truthy, the condition will always evaluate to true and the loop will never be exited.
