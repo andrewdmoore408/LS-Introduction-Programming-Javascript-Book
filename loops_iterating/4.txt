@@ -1,0 +1,3 @@
+No, this code does not produce an error--it's still a valid for statement even with the increment/decrement clause empty.
+
+The numbers 1 through 5 are output--the reassignment of 1 to 1 plus its current value occurs before the value of i is output via console.log
