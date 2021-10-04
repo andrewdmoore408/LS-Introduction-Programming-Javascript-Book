@@ -1,0 +1,3 @@
+This code logs 'hi' and then 'hello'. Since foo points to an object, which is mutable, it can be modified and its a property is being modified here (changing the value of a for the object to which foo points).
+
+The reassigning on line 10 of argument2 changes the string object to which argument2 is pointing, but the binding is different from what local variable qux is pointing to (plus strings are immutable anyway). 
