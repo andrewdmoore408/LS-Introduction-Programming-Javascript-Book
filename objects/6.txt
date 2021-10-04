@@ -1,0 +1,13 @@
+The following are objects:
+  [ 'a', 'b', 'c' ]
+  function bar() { return "bar"; }
+  { a: 1, b: 2 }
+
+The following are primitives:
+  "foo"
+  3.1415
+  false
+  undefined
+
+These are neither:
+  foo
