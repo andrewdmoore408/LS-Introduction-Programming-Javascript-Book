@@ -1,0 +1,1 @@
+This stack trace informs us that the label greeting, which was found on line 4, character 15 of the exercise2.js file, has not been defined, so JS has no idea what to do with it and an error is thrown.
