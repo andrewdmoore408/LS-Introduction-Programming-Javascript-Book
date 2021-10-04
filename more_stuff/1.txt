@@ -1,0 +1,1 @@
+This code will log [1, 4, 3] to the console. This is because array2 is assigned to reference the same object (space in memory) that array1 references. When this array is mutated (by reassigning the second element (at index 1)), it changes the space in memory to which array2 also points.
