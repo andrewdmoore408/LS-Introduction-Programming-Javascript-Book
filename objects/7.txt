@@ -1,0 +1,3 @@
+Yes, these two snippets should produce the same output.
+
+(NOTE: I was incorrect. Because Object.keys() only returns an object's own keys (not anything inherited), the properties from the prototype object are not output.)
