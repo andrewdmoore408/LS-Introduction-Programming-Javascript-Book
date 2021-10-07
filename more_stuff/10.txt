@@ -1,0 +1,5 @@
+In the second snippet, 5 will be returned. I suspect the ++ operation is leading to the string '5' being coerced to an integer, and then that's returned as-is. Because the post-increment operator is being used, y's value will be increased to 6, but only after it's been returned.
+
+According to what I'm seeing in Node, the type of the object y points to has been changed to be a number as well.
+
+So first the object is coerced (converted?) into a number, then returned as-is, then incremented by one.
